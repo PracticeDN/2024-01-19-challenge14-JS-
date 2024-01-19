@@ -14,29 +14,12 @@
  *
  */
 
-// function myTest(n, x) {
-//   let numArray = [];
-//   let x;
-//   if (n % x === 1) {
-//     numArray.push(x);
-//     Math.min(numArray);
-//   }
-
-//   console.log(numArray);
-// }
-
-// myTest(10);
-
 function question(n) {
   // 여기에서 코드 작성해주세요!
-
-  let result = [];
 
   for (let i = 0; i < n; i++) {
     if (n % i === 1) return i;
   }
-
-  return result;
 }
 
 // 여기는 결과값 함수이므로 신경쓰지 않으셔도 됩니다!
